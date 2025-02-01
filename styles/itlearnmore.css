@@ -1,0 +1,25 @@
+.maindiv{
+    height: 1300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title1{
+    color: white;
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 40px;
+}
+.content{
+    color: white;
+    line-height: 2;
+}
+.position{
+    width: 70%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

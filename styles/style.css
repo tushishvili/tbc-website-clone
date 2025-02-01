@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    width: 100%;
+    height:84px ;
+    background-color: rgb(26, 30, 31);
+    opacity: 0.95;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+.headerdiv{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.headericon{
+    display: flex;
+    width: 182px;
+    height: 40px;
+    object-fit: cover;
+}
+.menu{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.activemenutext{
+    color:  #00A3E0;
+    font-family: "Roboto", serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+.menutext{
+    color: #f4f4f4;
+    font-family: "Roboto", serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menutext:hover{
+    color:  #00A3E0;
+}
+.body1{
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    background-image: url(/images/manbodyimage.avif);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+p{
+    font-family: "Roboto", serif;
+    color: white;
+}
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100px;
+    justify-content: space-between;
+    margin-left: 11%;
+}
+.firstpart{
+    font-size: 40px;
+    font-weight: 500;
+}
+.secondpart{
+    font-size: 36px;
+    font-weight: 500;
+}
+.mainpictext{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.body2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color:  #23282A;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contextdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 68vh;
+    width: 74%;
+}
+.paragraphdiv{
+    width: 95%;
+}
+.containerfordivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divblocks{
+    display: flex;
+    align-items: center;
+    height: 180.5px;
+    width: 290px;
+    background-color: #31383A;
+    border-radius: 12px;
+}
+.numbers{
+    color: #f4f4f4;
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.info{
+    color: #f4f4f4;
+    font-size: 20px;
+    font-weight: 200;
+}
+.divblockcontent{
+    display: flex;
+    flex-direction: column;
+    height: 83px;
+    justify-content: space-between;
+    width: 130px;
+    margin-left: 30px;
+}
+.body3{
+    display: flex;
+    justify-content: center;
+    height: 166vh;
+    background-color: #23282A;
+}
+.contentdiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 74%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.infodiv{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(93, 93, 93);
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+}
+.infodiv:hover{
+    background-color: #32373A;
+}
+.nameofcontentdiv2{
+    color: #dbdbdb;
+    font-size: 20px;
+}
+.infodivphoto{
+    display: flex;
+    width: 50%;
+    object-position: center;
+    object-fit: cover;
+    height: 290px;
+}
+.infodivtext{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infodivtext2{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.startertext{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+.title{
+    text-decoration: none;
+    font-size: 20px;
+}
+.endtext{
+    font-size: 20px;
+    text-decoration: none;
+}
+.paragraphofdiv{
+    color: rgb(185, 182, 182);
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+.forrad{
+    border-radius: 8px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230px;
+    background-color: #1A1E1F;
+}
+.colorline{
+    width: 100%;
+    height: 50px;
+    background-color: #222222;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+}
+.leftpart{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.rightpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.footertext{
+    color: #f4f4f4;
+    font-size: 14px;
+}
+.footerimg{
+    width: 106px;
+    height: 30px;
+}
+.logodiv{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+.footerlogo{
+    width: 39px;
+    height: 39px;
+}
+.button{
+    width: 162px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #00aef3;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.5s,
+    background-color 0.5s;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(38, 38, 38);
+}
+@media screen and (max-width :1250px){
+    .contextdiv{
+        width: 80%;
+    }
+    .contentdiv2{
+        width: 80%;
+    }
+}
+@media screen and (max-width :1200px){
+    .contextdiv{
+        width: 80%;
+    }
+    .contentdiv2{
+        width: 80%;
+    }
+}
+@media screen and (max-width :1120px){
+    .contextdiv{
+        width: 90%;
+    }
+    .contentdiv2{
+        width: 90%;
+    }
+    .forrad{
+        width: 90%;
+    }
+}
+@media screen and (max-width :1000px){
+    .contextdiv{
+        width: 95%;
+    }
+    .contentdiv2{
+        width: 95%;
+    }
+    .infodiv{
+        height: 80%;
+    }
+    .forrad{
+        height: 80%;
+    }
+}
+@media screen and (max-width :950px){
+    .divblocks{
+        width: 270px;
+    }
+}
+@media screen and (max-width :900px){
+    .divblocks{
+        width: 220px;
+    }
+}
+@media screen and (max-width :700px){
+    .divblocks{
+        width: 190px;
+    }
+    .infodiv{
+        height: 75%;
+    }
+    .forrad{
+        height: 75%;
+    }
+    .infodivtext{
+        margin-top: 0px;
+    }
+}

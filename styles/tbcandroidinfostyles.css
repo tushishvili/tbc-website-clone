@@ -1,0 +1,115 @@
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    width: 100%;
+    background-color: #161616;
+}
+.contentofpart1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 80px;
+}
+.image{
+    width: 980px;
+    height: 550px;
+}
+.img1{
+    width: 320px;
+}
+.lastpartofpart1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+}
+.registrationbutton{
+    width: 320px;
+    color: white;
+    background-color: #00aef3;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s, 
+    color 0.5s;
+}
+.registrationbutton:hover{
+    background-color: #d5d5d5;
+    color: #8578FF;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.back{
+    font-size: 18px;
+    font-weight: lighter;
+    transition: color 0.5s;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+.back:hover{
+    color: #00aef3;
+}
+.part2{
+    height: 100%;
+    width: 100%;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answer1{
+    line-height: 35px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(244, 244, 244)
+}
+.question1{
+    color: #f4f4f4;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.infoabtlector{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 60px;
+}
+#pic{
+    width: 228px;
+    height: 319px;
+    object-fit: cover;
+}
+.nameoflector{
+    font-size: 14px;
+    color: rgb(244, 244, 244);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.exception{
+    font-weight: lighter;
+    color: #f4f4f4;
+}
+.informationdiv{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 40px;
+    margin-bottom: 85px;
+}
+.informationp{
+    line-height: 1.8;
+    color: #f4f4f4;
+}
